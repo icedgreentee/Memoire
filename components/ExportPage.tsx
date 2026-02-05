@@ -97,7 +97,7 @@ const ExportPage: React.FC<ExportPageProps> = ({ imageUrl, theme, onBack, onRese
       <div className="relative group mb-12 max-w-[500px]">
         <img 
           src={imageUrl} 
-          className="rounded-lg shadow-medium border-8 border-white max-h-[600px] object-contain" 
+          className="rounded-3xl shadow-medium border-8 border-clear max-h-[600px] object-contain" 
           alt="Final Result" 
         />
         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-center justify-center pointer-events-none">
