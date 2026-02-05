@@ -1,0 +1,8 @@
+
+{
+  "name": "PhotoBooth Strip Generator",
+  "description": "A luxury virtual photobooth for creating stylish vertical strips or landscape collages with themes like Coquette, Valentines, and Boss Babe.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
