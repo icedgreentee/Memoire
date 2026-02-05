@@ -12,12 +12,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
       {/* FULLSCREEN, CENTERED LIQUID BACKGROUND */}
       <LiquidChrome
         baseColor={[0.97, 0.87, 0.89]}   // ballet slipper pink
-        speed={0.2}
-        amplitude={0.3}
-        frequencyX={5}
-        frequencyY={5}
+        speed={0.4}
+        amplitude={0.7}
+        frequencyX={1.75}
+        frequencyY={2.0}
         interactive={true}
-        className="absolute inset-0"
       />
 
       {/* CENTERED LOGO BUTTON */}
@@ -27,7 +26,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
           className="relative z-10 transition-transform hover:scale-110 active:scale-95"
         >
           {/* Soft glow */}
-          <div className="absolute inset-0 blur-[120px] opacity-70 bg-pink-300 rounded-full scale-[2.2]" />
+          <div className="absolute inset-0 blur-[120px] opacity-70 bg-pink-300 rounded-full scale-[3.2]" />
 
           {/* Logo */}
           <img
